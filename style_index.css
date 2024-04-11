@@ -1,0 +1,385 @@
+.Titulos_Principales {
+  font-size: 60px;
+  color: #FF0052;
+  font-weight: bold;
+  font-style: normal;
+  margin-bottom: 10px;
+}
+
+.Titulos_secundarios {
+  font-size: 30px;
+  color: #09012A;
+  font-style: bold;
+  font-weight: normal;
+  margin-bottom: 15px;
+}
+
+.titulos_principales_izquierda {
+  font-size: 50px;
+  color: #FF0052;
+  font-style: normal;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-left: 100px;
+}
+
+.textos_comunes_azules {
+  font-size: 25px;
+  color: #09012A;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  text-align: right;
+}
+
+.Textos_comunes_negrita_rosa {
+  font-size: 22px;
+  color: #FF0052;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  line-height: 1.5;
+  text-align: right;
+  margin-left: 400px;
+  margin-bottom: 20px;
+}
+
+.textos_comunes_azules_left {
+  font-size: 22px;
+  color: #09012A;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  text-align: left;
+  margin-left: 100px;
+}
+
+.cta-button {
+  background-color: transparent;
+  border: 2px solid #09012A;
+  color: #09012A;
+  font-weight: normal;
+  font-size: 22px;
+  padding: 10px 20px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.cta-button:hover {
+  background-color: trasparent;
+  border-color: #6C39ED;
+  color: #F4F4F4;
+}
+
+.cta-button a {
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-family: "Gontserrat", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 1.05rem;
+  font-family: "Gontserrat", sans-serif;
+}
+
+body {
+  background-color: #F4F4F4;
+}
+
+.header {
+  background-color: transparent;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  height: 90px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10%;
+}
+.header #logo-1 {
+  width: 60px;
+  cursor: pointer;
+  margin-top: -10px;
+}
+.header #logo-1:hover {
+  transform: scale(1.2);
+}
+
+.nav-links {
+  margin-right: -100px;
+  list-style: none;
+}
+.nav-links li {
+  display: inline-block;
+  padding: 5px 15px;
+  border: 2px solid #242424;
+  border-radius: 30px;
+  margin-right: 10px;
+  transition: all 0.3s ease;
+  color: #242424;
+}
+.nav-links li:hover {
+  border-color: #6C39ED;
+}
+.nav-links a {
+  font-size: 1.2rem;
+  color: #242424;
+  text-decoration: none;
+  opacity: 100%;
+}
+.nav-links a:hover {
+  color: #6C39ED;
+}
+
+.banner {
+  background-image: url("fondo-2.png");
+  background-size: cover;
+  background-position: center;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.banner-content {
+  display: flex;
+}
+
+.left-section {
+  width: 50%;
+  margin-right: 20px;
+}
+.left-section img {
+  max-width: 80vh;
+  margin-left: 150px;
+}
+
+.right-section {
+  text-align: right;
+  width: 50%;
+  margin-right: 100px;
+  margin-top: 100px;
+}
+
+.separator {
+  border: none;
+  border-top: 8px solid #09012A;
+  margin-bottom: 20px;
+  width: 100px;
+  margin-right: 0;
+  margin-left: auto;
+  border-radius: 50px;
+}
+
+.sobre-mi {
+  background-image: url("sobremi.png");
+  background-size: cover;
+  background-position: center;
+  margin-top: 100px;
+}
+
+.section-margenes {
+  display: flex;
+}
+
+.left-column {
+  flex: 1;
+  width: 50%;
+}
+
+img {
+  width: 80%;
+  margin-top: 50px;
+  align-content: center;
+  margin-left: 100px;
+}
+img:hover {
+  transform: translateY(-5px);
+}
+
+p {
+  line-height: 1.5;
+}
+
+.right-column {
+  width: 50%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+  margin-left: 150px;
+  transform: scale(1.1);
+}
+.right-column .container {
+  display: flex;
+  align-items: center;
+}
+.right-column img {
+  width: 180px;
+  transition: transform 0.3s ease-in-out;
+  margin-bottom: 50px;
+  margin-right: 50px;
+}
+.texto_normal {
+  font-size: 3.5rem;
+  color: #09012A;
+  line-height: 1.5;
+  text-align: left;
+  margin-right: 20px;
+}
+
+.titulos_pequenios {
+  font-size: 3.5rem;
+  color: #09012A;
+  line-height: 1.5;
+  text-align: left;
+}
+
+.titulo-servicios {
+  margin-top: 100px;
+  font-family: "Gontserrat", sans-serif;
+  font-size: 4rem;
+  line-height: 1.5px;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #6C39ED;
+}
+
+.texto-servicios {
+  font-family: "Gontserrat", sans-serif;
+  font-size: 1.7rem;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #09012A;
+}
+
+.galeria {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.galeria .paises {
+  width: 150px;
+  height: 150px;
+  margin: 0 10px;
+}
+
+.galeria {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.galeria .paises {
+  width: 150px;
+  height: 150px;
+  margin: 0 10px;
+  animation: flotar 3s ease-in-out infinite;
+}
+@keyframes flotar {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+}
+
+.contenedor-principal {
+  font-family: "Gontserrat", sans-serif;
+  background-image: url("fondo-proyectos.png");
+  background-size: cover;
+  background-position: center;
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 30px;
+}
+
+.contenedor {
+  width: 30%;
+  margin: 20px;
+  float: left;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+}
+.contenedor img {
+  width: 360px;
+  margin-right: 100px;
+  transition: transform 0.3s ease;
+  border: solid 20px #c2c2c2;
+  border-radius: 100%;
+}
+.contenedor h2 {
+  font-family: "Gontserrat", sans-serif;
+  color: #F4F4F4;
+  font-size: 1.7rem;
+  letter-spacing: 0.5px;
+}
+.contenedor p {
+  font-family: "Gontserrat", sans-serif;
+  color: #F4F4F4;
+  font-size: 1.3rem;
+  line-height: 35px;
+  letter-spacing: 0.5px;
+}
+
+.boton_proyectos {
+  margin-top: 20px;
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 50px;
+  background-color: #FF0052;
+  color: #F4F4F4;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.boton_proyectos:hover:before {
+  content: "Quiero ";
+}
+.boton_proyectos:hover {
+  background-color: #6C39ED;
+}
+
+.footer {
+  background-color: #FF0052;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-nav {
+  margin-top: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+}
+
+.a-footer {
+  color: #F4F4F4;
+  text-decoration: none;
+  margin: 0 10px;
+  opacity: 70%;
+  transition: font-size 0.3s;
+}
+
+a:hover {
+  font-size: 16px;
+}
+
+.copyright {
+  color: #fff;
+  font-size: 14px;
+}/*# sourceMappingURL=style_index.css.map */
